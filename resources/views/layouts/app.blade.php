@@ -17,7 +17,9 @@
 <body>
     @include('layouts.navbar')
 
-    {{ $slot }}
+    <div class="pt-20">
+        {{ $slot }}
+    </div>
 
     @include('layouts.footer')
     @livewireScripts
