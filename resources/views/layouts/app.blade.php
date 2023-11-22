@@ -15,11 +15,13 @@
 </head>
 
 <body>
-    {{-- @include('layouts.navbar') --}}
+    @include('layouts.navbar')
 
-    {{ $slot }}
+    <div class="pt-20">
+        {{ $slot }}
+    </div>
 
-    {{-- @include('layouts.footer') --}}
+    @include('layouts.footer')
     @livewireScripts
 </body>
 
