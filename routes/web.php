@@ -2,6 +2,7 @@
 
 use App\Livewire\About;
 use App\Livewire\Home;
+use App\Livewire\Location;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', Home::class);
 Route::get('/about', About::class);
+Route::get('/location', Location::class);
