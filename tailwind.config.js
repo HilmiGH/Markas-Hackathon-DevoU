@@ -6,7 +6,14 @@ export default {
         "./resources/**/*.vue",
     ],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                redMarkas: "#D90027",
+            },
+            fontFamily: {
+                lexendMega: ["Lexend Mega", "sans-serif"],
+            },
+        },
     },
     plugins: [],
 };
