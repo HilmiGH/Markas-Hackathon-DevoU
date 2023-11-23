@@ -12,6 +12,8 @@ export default {
             },
             fontFamily: {
                 lexendMega: ["Lexend Mega", "sans-serif"],
+                lexendDeca: ["Lexend Deca", "sans-serif"],
+                lexendPeta: ["Lexend Peta", "sans-serif"],
             },
         },
     },

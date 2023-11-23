@@ -18,6 +18,7 @@
     @include('layouts.navbar')
 
     <div class="pt-20">
+        <image src="{{ asset('images/bg-paper.png') }}" class="min-h-screen fixed -z-10 w-full" />
         {{ $slot }}
     </div>
 
