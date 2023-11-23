@@ -1,70 +1,76 @@
 <div>
-    <section class="" style="padding-left: 5rem; padding-top: 3rem">
-        <button style="border-radius: 24px; padding-block: 26px; padding-inline: 55px; background-color: white; border: 2px solid #000;">
-            <x-uiw-left class="h-6 w-6 inline-block mr-4"/>
+    <section class="" style="padding-left: 5rem; padding-right: 5rem; padding-top: 3rem">
+        <a style="border-radius: 24px; padding-block: 20px; padding-inline: 20px; background-color: white; border: 2px solid #000;">
+            <svg class="inline-block mr-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 13 21" fill="none">
+                <path d="M11.5 19.5L2 10.5L11.5 1" stroke="black" stroke-width="2"/>
+              </svg>
             <span class="font-lexendMega">Kembali ke pemilihan ruangan</span>
-        </button>
-        <div style="display: flex; margin-top: 3rem; margin-bottom: 4rem ; justify-content: center">
+            </a>
+        <div style="display: flex; margin-top: 3rem; margin-bottom: 3rem ; justify-content: center">
             <div class="font-lexendMega">
                 <span class="text-redMarkas">1 /</span>
-                <span class="text-[#BCBCBC]">Pilih Tanggal</span> 
+                <span class="text-[#BCBCBC]">Pilih Tanggal</span>
             </div>
-            <x-uiw-right class="h-6 w-6 inline-block ml-4 mr-10"/>
+            <svg class="inline-block ml-4 mr-10" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 12 21" fill="none">
+                <path d="M1 1L10.5 10L1 19.5" stroke="#BCBCBC" stroke-width="2"/>
+              </svg>
             <div class="font-lexendMega" style="">
                 <span class="text-redMarkas">2 /</span>
-                <span class="font-bold">Pesan</span>
+                <span class="">Pesan</span>
             </div>
-            <x-uiw-right class="h-6 w-6 inline-block ml-4 mr-10"/>
+            <svg class="inline-block ml-4 mr-10" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 12 21" fill="none">
+                <path d="M1 1L10.5 10L1 19.5" stroke="#BCBCBC" stroke-width="2"/>
+              </svg>
             <div class="font-lexendMega">
                 <span class="text-redMarkas">3 /</span>
                 <span class="text-[#BCBCBC]">Selesai</span>
             </div>
         </div>
     </section>
-    <section style="padding-left: 5rem;">
+    <section style="padding-left: 5rem; padding-right: 5rem;">
         <form action="" style="display: flex; flex-direction: column">
             <div style="display: flex; flex-direction: column">
-                <label class="font-lexendMega font-bold" for="nama">Nama</label>
+                <label class="font-lexendMega font-bold ml-4 mb-4 mt-4" for="nama">Nama</label>
                 <input class="font-lexendMega" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
             </div>
             <div style="display: flex; flex-direction: column">
-                <label class="font-lexendMega font-bold" for="gender">Gender</label>
-                <div>
-                    <input class="font-lexendMega" type="radio" name="" id="">
-                    <label class="font-semibold" for="male">Male</label>
-                    <input class="font-lexendMega" type="radio" name="" id="">    
-                    <label class="font-semibold" for="female">Female</label>
+                <label class="font-lexendMega font-bold ml-4 mb-4 mt-8" for="gender">Gender</label>
+                <div class="flex align-middle">
+                    <input class="font-lexendMega h-6 w-6 ml-4 mr-2" type="radio" name="" id="">
+                    <label class="font-lexendMega font-semibold mr-8" for="male">Male</label>
+                    <input class="font-lexendMega h-6 w-6 mr-2" type="radio" name="" id="">
+                    <label class="font-lexendMega font-semibold" for="female">Female</label>
                 </div>
             </div>
             <div style="display: flex; flex-direction: column">
-                <label class="font-lexendMega font-bold" class="font-lexendMega" for="email">Email</label>
+                <label class="font-lexendMega font-bold ml-4 mb-4 mt-8" class="font-lexendMega" for="email">Email</label>
                 <input class="font-lexendMega" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
             </div>
             <div style="display: flex; flex-direction: column">
-                <label class="font-lexendMega font-bold" for="nomor_telepon">Nomor Telepon</label>
+                <label class="font-lexendMega font-bold ml-4 mb-4 mt-8" for="nomor_telepon">Nomor Telepon</label>
                 <input class="font-lexendMega" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
             </div>
             <div style="display: flex; flex-direction: column">
-                <label class="font-lexendMega font-bold" for="instansi">Instansi/Komunitas/Perusahaan</label>
+                <label class="font-lexendMega font-bold ml-4 mb-4 mt-8" for="instansi">Instansi/Komunitas/Perusahaan</label>
                 <input class="font-lexendMega" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
             </div>
             <div style="display: flex; flex-direction: column">
-                <label class="font-lexendMega font-bold" for="jenis_kegiatan">Jenis Kegiatan</label>
+                <label class="font-lexendMega font-bold ml-4 mb-4 mt-8" for="jenis_kegiatan">Jenis Kegiatan</label>
                 <input class="font-lexendMega" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
             </div>
             <div style="display: flex; flex-direction: column">
-                <label class="font-lexendMega font-bold" for="nama_kegiatan">Nama Kegiatan</label>
+                <label class="font-lexendMega font-bold ml-4 mb-4 mt-8" for="nama_kegiatan">Nama Kegiatan</label>
                 <input class="font-lexendMega" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
             </div>
             <div style="display: flex; flex-direction: column">
-                <label class="font-lexendMega font-bold" for="deskripsi_singkat">Deskripsi Singkat</label>
-                <input class="font-lexendMega" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
+                <label class="font-lexendMega font-bold ml-4 mb-4 mt-8" for="deskripsi_singkat">Deskripsi Singkat</label>
+                <textarea class="font-lexendMega" name="" id="" cols="30" rows="10" style="border: 1px solid #000; border-radius: 36px; padding: 16px"></textarea>
             </div>
         </form>
-        <button class="bg-redMarkas mt-8 ml-auto" style="border-radius: 24px; padding-block: 16px; padding-inline: 45px;">
-            <span class="font-lexendMega"style="border: 1px solid #000; border-radius: 36px; padding: 16px" style="color: rgb(255 255 255);">
+        <a href="" class="bg-redMarkas mt-8 float-right" style="border-radius: 24px; padding-block: 16px; padding-inline: 45px;">
+            <span class="font-lexendMega text-white" style=" border-radius: 36px; padding: 16px" style="">
                 Pesan
             </span>
-        </button>
+        </a>
     </section>
 </div>
