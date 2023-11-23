@@ -4,10 +4,10 @@ namespace App\Livewire;
 
 use Livewire\Component;
 
-class Location extends Component
+class Booking extends Component
 {
     public function render()
     {
-        return view('livewire.location')->layout('layouts.app');
+        return view('livewire.booking')->layout('layouts.app');
     }
 }
