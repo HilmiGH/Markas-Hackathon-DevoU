@@ -82,14 +82,13 @@
                     </div>
                 </div>
             </div>
-
             {{-- Tab Section --}}
 
             {{-- Mari Berkolaborasi - --}}
             <div class=" mt-[207px]">
                 <h1 class="text-redMarkas font-extrabold text-[48px] text-center">MARI BERKOLABORASI</h1>
                 <div class="flex justify-center items-center mt-12">
-                    <a href="#"
+                    <a href="/booking"
                         class="bg-redMarkas text-white px-[104px] py-4 font-semibold text-[28px] rounded-[110px] hover:opacity-80">
                         Booking
                     </a>
