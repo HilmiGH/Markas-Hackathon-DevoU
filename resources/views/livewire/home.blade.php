@@ -217,29 +217,122 @@
     </div>
 
     {{-- FAQ --}}
-    <div class="mt-80 flex flex-col justify-center items-center w-10/12 mx-auto" x-data="{ open: false }">
+    <div class="mt-80 flex flex-col justify-center items-center w-10/12 mx-auto" x-data="{ open1: false, open2: false, open3: false, open4: false, open5: false }">
         <div class="flex flex-col items-center justify-center w-11/12 text-center">
             <h2 class="text-redMarkas text-[28px] leading-none uppercase font-semibold font-lexendPeta">FAQ</h2>
             <h3 class="text-5xl font-extrabold mt-5">*MASIH RAGU?</h3>
             <p class="text-xl font-light mt-9 leading-relaxed">Kami menjawab apa yang menjadi pertanyaan Anda. Semoga
                 membantu.</p>
         </div>
+        {{-- open1 --}}
         <div class="mt-20 flex flex-col items-center justify-center">
-            <div class="flex flex-row w-full">
-                <div class=" mr-28">Apakah Ada Acara atau Aktivitas Sosial di MARKAS?</div>
-                <x-heroicon-s-plus-small class="w-6 fill-redMarkas ml-28" x-on:click="open = !open"
-                    x-bind:class="{ open ? '' : 'hidden' }" />
-                <div class="mt-10 ">Ya, MARKAS banyak menyelenggarakan acara, seminar, dan kegiatan sosial yang
-                    memungkinkan setiap anggota untuk berinteraksi, belajar, dan membangun jaringan.</div>
+            <div class="flex flex-row items-center">
+                <div class="mr-44">Apakah Ada Acara atau Aktivitas Sosial di MARKAS?</div>
+                <button @click="open1 = !open1" class="w-6 fill-redMarkas hover">
+                    <x-heroicon-s-plus-small x-show="!open1" />
+                    <x-heroicon-s-minus-small x-show="open1" />
+                </button>
+            </div>
+            <div x-show="open1" class="mt-2 w-1/2 text-gray-600 border-b-2 border-gray-500"
+                x-transition:enter="transition ease-out duration-300"
+                x-transition:enter-start="opacity-0 transform scale-90"
+                x-transition:enter-end="opacity-100 transform scale-100"
+                x-transition:leave="transition ease-in duration-300"
+                x-transition:leave-start="opacity-100 transform scale-100"
+                x-transition:leave-end="opacity-0 transform scale-90">
+                Ya, MARKAS banyak menyelenggarakan acara, seminar, dan kegiatan sosial yang memungkinkan setiap anggota
+                untuk berinteraksi, belajar, dan membangun jaringan.
             </div>
         </div>
+        {{-- open2 --}}
+        <div class="mt-7 flex flex-col items-center justify-center">
+            <div class="flex flex-row items-center">
+                <div class="mr-44">Bagaimana Saya Bisa Bergabung dengan MARKAS?</div>
+                <button @click="open2 = !open2" class="w-6 fill-redMarkas hover">
+                    <x-heroicon-s-plus-small x-show="!open2" />
+                    <x-heroicon-s-minus-small x-show="open2" />
+                </button>
+            </div>
+            <div x-show="open2" class="mt-2 w-1/2 text-gray-600 border-b-2 border-gray-500"
+                x-transition:enter="transition ease-out duration-300"
+                x-transition:enter-start="opacity-0 transform scale-90"
+                x-transition:enter-end="opacity-100 transform scale-100"
+                x-transition:leave="transition ease-in duration-300"
+                x-transition:leave-start="opacity-100 transform scale-100"
+                x-transition:leave-end="opacity-0 transform scale-90">
+                Ya, MARKAS banyak menyelenggarakan acara, seminar, dan kegiatan sosial yang memungkinkan setiap anggota
+                untuk berinteraksi, belajar, dan membangun jaringan.
+            </div>
+        </div>
+        {{-- open3 --}}
+        <div class="mt-7 flex flex-col items-center justify-center">
+            <div class="flex flex-row items-center">
+                <div class="mr-64">Apakah Ada Jam Operasional Tertentu?</div>
+                <button @click="open3 = !open3" class="w-6 fill-redMarkas hover ml-5">
+                    <x-heroicon-s-plus-small x-show="!open3" />
+                    <x-heroicon-s-minus-small x-show="open3" />
+                </button>
+            </div>
+            <div x-show="open3" class="mt-2 w-1/2 text-gray-600 border-b-2 border-gray-500"
+                x-transition:enter="transition ease-out duration-300"
+                x-transition:enter-start="opacity-0 transform scale-90"
+                x-transition:enter-end="opacity-100 transform scale-100"
+                x-transition:leave="transition ease-in duration-300"
+                x-transition:leave-start="opacity-100 transform scale-100"
+                x-transition:leave-end="opacity-0 transform scale-90">
+                Ya, MARKAS banyak menyelenggarakan acara, seminar, dan kegiatan sosial yang memungkinkan setiap anggota
+                untuk berinteraksi, belajar, dan membangun jaringan.
+            </div>
+        </div>
+        {{-- open4 --}}
+        <div class="mt-7 flex flex-col items-center justify-center">
+            <div class="flex flex-row items-center">
+                <div class=" mr-64">Bagaimana dengan Privasi di MARKAS?</div>
+                <button @click="open4 = !open4" class="w-6 fill-redMarkas hover ml-5">
+                    <x-heroicon-s-plus-small x-show="!open4" />
+                    <x-heroicon-s-minus-small x-show="open4" />
+                </button>
+            </div>
+            <div x-show="open4" class="mt-2 w-1/2 text-gray-600 border-b-2 border-gray-500"
+                x-transition:enter="transition ease-out duration-300"
+                x-transition:enter-start="opacity-0 transform scale-90"
+                x-transition:enter-end="opacity-100 transform scale-100"
+                x-transition:leave="transition ease-in duration-300"
+                x-transition:leave-start="opacity-100 transform scale-100"
+                x-transition:leave-end="opacity-0 transform scale-90">
+                Ya, MARKAS banyak menyelenggarakan acara, seminar, dan kegiatan sosial yang memungkinkan setiap anggota
+                untuk berinteraksi, belajar, dan membangun jaringan.
+            </div>
+        </div>
+        {{-- open5 --}}
+        <div class="mt-7 flex flex-col items-center justify-center">
+            <div class="flex flex-row items-center">
+                <div class="mr-20">Bagaimana Saya Menyewa untuk Co-Working Space Sementara?</div>
+                <button @click="open5 = !open5" class="w-6 fill-redMarkas hover">
+                    <x-heroicon-s-plus-small x-show="!open5" />
+                    <x-heroicon-s-minus-small x-show="open5" />
+                </button>
+            </div>
+            <div x-show="open5" class="mt-2 w-1/2 text-gray-600 border-b-2 border-gray-500"
+                x-transition:enter="transition ease-out duration-300"
+                x-transition:enter-start="opacity-0 transform scale-90"
+                x-transition:enter-end="opacity-100 transform scale-100"
+                x-transition:leave="transition ease-in duration-300"
+                x-transition:leave-start="opacity-100 transform scale-100"
+                x-transition:leave-end="opacity-0 transform scale-90">
+                Ya, MARKAS banyak menyelenggarakan acara, seminar, dan kegiatan sosial yang memungkinkan setiap anggota
+                untuk berinteraksi, belajar, dan membangun jaringan.
+            </div>
+        </div>
+
         <div class="mt-20 flex flex-col items-center justify-center w-11/12 text-center">
             <button
-                class="text-white bg-redMarkas font-lexendMega p-3 pl-5 pr-5 max-w-lg border border-transparent rounded-[100px]">Lebih
-                Banyak
+                class="text-white bg-redMarkas font-lexendMega p-3 pl-5 pr-5 max-w-lg border border-transparent rounded-[100px]">
+                Lebih Banyak
             </button>
         </div>
     </div>
+
 
     <div class="mt-40 flex flex-col justify-center items-center w-10/12 mx-auto">
         <div class="flex flex-col items-center justify-center w-11/12 text-center">
