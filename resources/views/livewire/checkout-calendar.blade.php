@@ -1,6 +1,6 @@
-<div class="">
+<div x-data="{ open: false }" class="">
     <section class="" style="padding-left: 5rem; padding-right: 5rem; padding-top: 4rem">
-        <a href="" style="border-radius: 24px; padding-block: 20px; padding-inline: 40px; background-color: white; border: 2px solid #000;">
+        <a href="{{ url('/booking') }}" style="border-radius: 24px; padding-block: 20px; padding-inline: 40px; background-color: white; border: 2px solid #000;">
             <svg class="inline-block mr-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 13 21" fill="none">
                 <path d="M11.5 19.5L2 10.5L11.5 1" stroke="black" stroke-width="2"/>
               </svg>
@@ -27,7 +27,7 @@
             </div>
         </div>
     </section>
-    <section x-data="{ open: false }" style="padding-left: 5rem; margin-top: 3rem; margin-bottom: 1rem; padding-right: 5rem;">
+    <section style="padding-left: 5rem; margin-top: 3rem; margin-bottom: 1rem; padding-right: 5rem;">
         <div class="mb-12 flex justify-center">
             <button>
                 <svg class="inline-block mr-8" width="24" height="24" viewBox="0 0 14 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -199,7 +199,9 @@
         <table class="font-lexendMega w-[95.5rem] border-collapse">
             <tr class="border-black" style="border: 2px solid #000">
                 <th class="bg-redMarkas p-4 pl-8 pr-8 w-max border-black" style="color: rgb(255 255 255); border: 2px solid #000">
-                    <span class="float-left">21 November 2023</span>
+
+                    <span x-show="!open" class="float-left">21 November 2023</span>
+                    <span x-show="open" class="float-left">14 Desember 2023</span>
                     <button class="float-right">
                         <svg class="inline-block float-right" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M29.9997 6.99985V12.9999C29.9997 13.2651 29.8943 13.5194 29.7068 13.707C29.5193 13.8945 29.2649 13.9999 28.9997 13.9999H22.9997C22.7345 13.9999 22.4801 13.8945 22.2926 13.707C22.105 13.5194 21.9997 13.2651 21.9997 12.9999C21.9997 12.7346 22.105 12.4803 22.2926 12.2927C22.4801 12.1052 22.7345 11.9999 22.9997 11.9999H26.4247L23.1009 8.95485L23.0697 8.92485C21.6798 7.53546 19.9113 6.58642 17.9851 6.19628C16.059 5.80615 14.0606 5.99221 12.2396 6.73123C10.4185 7.47025 8.85564 8.72946 7.74611 10.3516C6.63658 11.9737 6.0296 13.8867 6.00101 15.8518C5.97242 17.8168 6.52348 19.7468 7.58535 21.4004C8.64722 23.0541 10.1728 24.3583 11.9716 25.15C13.7703 25.9417 15.7625 26.1858 17.6991 25.8518C19.6358 25.5179 21.4312 24.6207 22.8609 23.2724C23.0537 23.09 23.311 22.9917 23.5763 22.9991C23.8415 23.0065 24.093 23.1189 24.2753 23.3117C24.4576 23.5045 24.5559 23.7618 24.5485 24.0271C24.5412 24.2923 24.4287 24.5438 24.2359 24.7261C22.0128 26.8345 19.0636 28.0067 15.9997 27.9999H15.8347C13.8694 27.9729 11.9407 27.4637 10.2183 26.5168C8.49589 25.57 7.03241 24.2146 5.95651 22.5697C4.8806 20.9248 4.22521 19.0408 4.04793 17.0833C3.87066 15.1258 4.17693 13.1547 4.93982 11.3433C5.70271 9.53188 6.89888 7.93559 8.42317 6.69472C9.94747 5.45385 11.7532 4.6064 13.6817 4.22684C15.6103 3.84729 17.6025 3.94726 19.4833 4.51796C21.3642 5.08866 23.076 6.11263 24.4684 7.49985L27.9997 10.7249V6.99985C27.9997 6.73464 28.105 6.48028 28.2926 6.29275C28.4801 6.10521 28.7345 5.99985 28.9997 5.99985C29.2649 5.99985 29.5193 6.10521 29.7068 6.29275C29.8943 6.48028 29.9997 6.73464 29.9997 6.99985Z" fill="white"/>

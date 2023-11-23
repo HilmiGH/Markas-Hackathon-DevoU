@@ -1,6 +1,6 @@
 <div>
     <section class="" style="padding-left: 5rem; padding-right: 5rem; padding-top: 4rem">
-        <a href="" style="border-radius: 24px; padding-block: 20px; padding-inline: 20px; background-color: white; border: 2px solid #000;">
+        <a href="{{ url('/booking') }}" style="border-radius: 24px; padding-block: 20px; padding-inline: 20px; background-color: white; border: 2px solid #000;">
             <svg class="inline-block mr-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 13 21" fill="none">
                 <path d="M11.5 19.5L2 10.5L11.5 1" stroke="black" stroke-width="2"/>
               </svg>
@@ -66,11 +66,16 @@
                 <label class="font-lexendMega font-bold ml-4 mb-4 mt-8" for="description">Deskripsi Singkat</label>
                 <textarea class="font-lexendMega" wire:model="description" id="description" name="description" cols="30" rows="10" style="border: 1px solid #000; border-radius: 36px; padding: 16px"></textarea>
             </div>
-            <button type="submit" wire:click="submit" class="bg-redMarkas mt-8 float-right" style="border-radius: 24px; padding-block: 16px; padding-inline: 45px;">
-                <span class="font-lexendMega text-white" style=" border-radius: 36px; padding: 16px" style="">
-                    Pesan
-                </span>
-            </button>
         </form>
+        <a href="{{ url('/checkout-success') }}" type="submit" wire:click="submit" class="bg-redMarkas mt-8 float-right" style="border-radius: 24px; padding-block: 16px; padding-inline: 45px;">
+            <span class="font-lexendMega text-white" style=" border-radius: 36px; padding: 16px" style="">
+                Pesan
+            </span>
+        </a>
+        {{-- <button type="submit" wire:click="submit" class="bg-redMarkas mt-8 float-right" style="border-radius: 24px; padding-block: 16px; padding-inline: 45px;">
+            <span class="font-lexendMega text-white" style=" border-radius: 36px; padding: 16px" style="">
+                Pesan
+            </span>
+        </button> --}}
     </section>
 </div>
