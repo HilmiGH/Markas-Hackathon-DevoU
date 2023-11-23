@@ -73,26 +73,59 @@
     </div>
 
     {{-- Karakteristik --}}
-    <div class="flex flex-col justify-center items-center w-10/12 mx-auto h-screen">
+    <div class="mt-40 flex flex-col justify-center items-center w-10/12 mx-auto h-screen">
         <div class="flex flex-col items-center justify-center w-11/12 text-center">
             <h2 class="text-redMarkas text-[28px] leading-none uppercase font-semibold font-lexendPeta">Karakteristik
             </h2>
-            <h3 class="text-5xl font-extrabold mt-5">10 Karakter Markas</h3>
-            <p class="text-xl font-light mt-9 leading-relaxed">
-                Sejak diinisiasi di tahun 2016, semangat
+            <h3 class="text-5xl font-extrabold mt-5">10 KARAKTER MARKAS</h3>
+            <p class="text-xl font-light mt-9 leading-relaxed">Sejak diinisiasi di tahun 2016, semangat
                 #1000StartupDigital adalah untuk berkolaborasi
                 membuat ekosistem startup Indonesia menjadi
                 inklusif dan kolaboratif.
             </p>
         </div>
-
-        <div class="mt-20 flex flex-col gap-y-9">
-
+        <div class="mt-10 flex flex-col gap-y-3">
+            <div class="flex flex-row gap-x-3 translate-x-6">
+                <div class="flex max-w-sm p-3 pl-6 pr-6 border-2 border-black rounded-[55px]">
+                    <h1 class="font-lexendMega font-semibold text-lg">🚀 VISIONARY</h1>
+                </div>
+                <div class="flex max-w-sm p-3 pl-6 pr-6 border-2 border-black rounded-[55px]">
+                    <h1 class="font-lexendMega font-semibold text-lg">👟️ EXTRAMILE</h1>
+                </div>
+                <div class="flex max-w-sm p-3 pl-6 pr-6 border-2 border-black rounded-[55px]">
+                    <h1 class="font-lexendMega font-semibold text-lg">🧠 STRATEGIC</h1>
+                </div>
+            </div>
+            <div class="flex flex-row gap-x-3 -translate-x-2">
+                <div class="flex max-w-sm p-3 pl-6 pr-6 border-2 border-black rounded-[55px]">
+                    <h1 class="font-lexendMega font-semibold text-lg">🏆 GRIT</h1>
+                </div>
+                <div class="flex max-w-sm p-3 pl-6 pr-6 border-2 border-black rounded-[55px]">
+                    <h1 class="font-lexendMega font-semibold text-lg">⚖ INTEGRITY</h1>
+                </div>
+                <div class="flex max-w-sm p-3 pl-6 pr-6 border-2 border-black rounded-[55px]">
+                    <h1 class="font-lexendMega font-semibold text-lg">🎯 FOCUSED</h1>
+                </div>
+                <div class="flex max-w-sm p-3 pl-6 pr-6 border-2 border-black rounded-[55px]">
+                    <h1 class="font-lexendMega font-semibold text-lg">🚅 AGILE</h1>
+                </div>
+            </div>
+            <div class="flex flex-row gap-x-3 translate-x-8">
+                <div class="flex max-w-sm p-3 pl-6 pr-6 border-2 border-black rounded-[55px]">
+                    <h1 class="font-lexendMega font-semibold text-lg">🔥 PASSION</h1>
+                </div>
+                <div class="flex max-w-sm p-3 pl-6 pr-6 border-2 border-black rounded-[55px]">
+                    <h1 class="font-lexendMega font-semibold text-lg">📚 RESOURCEFUL</h1>
+                </div>
+                <div class="flex max-w-sm p-3 pl-6 pr-6 border-2 border-black rounded-[55px]">
+                    <h1 class="font-lexendMega font-semibold text-lg">🎨 CREATIVE</h1>
+                </div>
+            </div>
         </div>
     </div>
 
     {{-- Kolaborasi --}}
-    <div class="flex flex-col justify-center items-center w-10/12 mx-auto">
+    <div class="flex flex-col justify-center items-center w-10/12 mx-auto mt-20">
         <div class="flex flex-col items-center justify-center w-11/12 text-center">
             <h2 class="text-redMarkas text-[28px] leading-none uppercase font-semibold font-lexendPeta">Kolaborasi</h2>
             <h3 class="text-5xl font-extrabold mt-5">Pusat Kolaborasi Ekosistem Digital</h3>
