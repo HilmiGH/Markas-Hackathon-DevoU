@@ -11,7 +11,7 @@
                 </li>
                 <li><a class="hover:brightness-75 transition-all duration-200 whitespace-nowrap" href="/about">About</a>
                 </li>
-                <li><a class="hover:brightness-75 transition-all duration-200 whitespace-nowrap" href="#">Philosophy</a>
+                <li><a class="hover:brightness-75 transition-all duration-200 whitespace-nowrap" href="/about#philosophy">Philosophy</a>
                 </li>
                 <li><a class="hover:brightness-75 transition-all duration-200 whitespace-nowrap"
                         href="/events">Events</a></li>

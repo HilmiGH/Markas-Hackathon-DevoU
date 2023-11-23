@@ -14,7 +14,7 @@
     </div>
 
     {{-- Filosofi --}}
-    <div class="flex flex-col justify-center items-center w-10/12 mx-auto">
+    <div class="flex flex-col justify-center items-center w-10/12 mx-auto" id="philosophy">
         <div class="flex flex-col items-center justify-center w-11/12 text-center">
             <h2 class="text-redMarkas text-[28px] leading-none uppercase font-semibold font-lexendPeta">Filosofi</h2>
             <h3 class="text-5xl font-extrabold mt-5">Inkullsif Dan Kolaboratif</h3>

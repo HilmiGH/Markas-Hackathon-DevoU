@@ -8,7 +8,7 @@
             founders to grow with the ecosystem.</h1>
     </div>
 
-    <div class="h-40 mt-56 w-screen bg-redMarkas flex items-center justify-center">
+    <div class="h-40 w-screen bg-redMarkas flex items-center justify-center mt-56">
         <div class="text-white  text-[30px] font-lexendMega self-center">GAIN KNOWLEDGE - GET MENTORED - EXPAND NETWORK
         </div>
     </div>
@@ -52,7 +52,7 @@
             {{-- Filosofi 1 --}}
             <div class="flex flex-col items-center justify-center gap-20">
                 <div class="w-full">
-                    <image src="{{ asset('images/Rectangle 5 (1).png') }}" class="" />
+                    <image src="{{ asset('images/Rectangle 5.png') }}" class="" />
                 </div>
                 <div class="flex flex-col items-start w-full">
                     <h5 class="text-redMarkas text-xl font-light">Gain Knowledge</h5>
@@ -82,7 +82,7 @@
             {{-- Filosofi 3 --}}
             <div class="flex flex-col items-center justify-center gap-20">
                 <div class="w-full">
-                    <image src="{{ asset('images/Rectangle 5 (1).png') }}" class="" />
+                    <image src="{{ asset('images/Rectangle 5 (2).png') }}" class="" />
                 </div>
                 <div class="flex flex-col items-start w-full">
                     <h5 class="text-redMarkas text-xl font-light">Expand Network</h5>
