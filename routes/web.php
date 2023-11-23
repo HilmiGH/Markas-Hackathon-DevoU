@@ -6,6 +6,8 @@ use App\Livewire\CheckoutCalendar;
 use App\Livewire\CheckoutForm;
 use App\Livewire\CheckoutSuccess;
 use App\Livewire\Booking;
+use App\Livewire\Events;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,3 +27,4 @@ Route::get('/booking', Booking::class);
 Route::get('/checkout-calendar', CheckoutCalendar::class);
 Route::get('/checkout-form', CheckoutForm::class);
 Route::get('/checkout-success', CheckoutSuccess::class);Route::get('/booking', Booking::class);
+Route::get('/events', Events::class);
