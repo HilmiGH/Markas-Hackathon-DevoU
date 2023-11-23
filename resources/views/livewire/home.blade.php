@@ -8,7 +8,7 @@
             founders to grow with the ecosystem.</h1>
     </div>
 
-    <div class="h-40 w-screen bg-redMarkas flex items-center justify-center mt-56">
+    <div class="h-40 w-screen bg-redMarkas flex items-center justify-center mt-56 relative z-20">
         <div class="text-white  text-[30px] font-lexendMega self-center">GAIN KNOWLEDGE - GET MENTORED - EXPAND NETWORK
         </div>
     </div>
@@ -215,7 +215,8 @@
     </div>
 
     {{-- FAQ --}}
-    <div class="mt-80 flex flex-col justify-center items-center w-10/12 mx-auto" x-data="{ open1: false, open2: false, open3: false, open4: false, open5: false }">
+    <div class="mt-80 flex flex-col justify-center items-center w-10/12 mx-auto"
+        x-data="{ open1: false, open2: false, open3: false, open4: false, open5: false }">
         <div class="flex flex-col items-center justify-center w-11/12 text-center">
             <h2 class="text-redMarkas text-[28px] leading-none uppercase font-semibold font-lexendPeta">FAQ</h2>
             <h3 class="text-5xl font-extrabold mt-5">*MASIH RAGU?</h3>

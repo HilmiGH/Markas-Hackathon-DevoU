@@ -19,7 +19,7 @@ class CheckoutForm extends Component
     protected $rules = [
         // 'date' => 'required|date',
         'name' => 'required|max:255',
-        'gender' => 'required|integer',
+        'gender' => 'required|max:255',
         'email' => 'required|email',
         'phone' => 'required|max:255',
         'institution' => 'required|max:255',
@@ -31,8 +31,8 @@ class CheckoutForm extends Component
     public function submit()
       {
         // dd($this);
-        $this->validate($this->rules);
-        dd($this);
+        // $this->validate($this->rules);
+        // dd($this);
         return view('livewire.checkout-success')->layout('layouts.app');
       }
 
