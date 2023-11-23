@@ -18,8 +18,7 @@
             <img src="{{ asset('images/location/markas-3.png') }}" class="" />
         </div>
         <div class="row-span-1 col-span-2 ">
-            <div
-                class="border-2 border-black w-[325px] h-[97px] rounded-xl text-4xl flex justify-center items-center">
+            <div class="border-2 border-black w-[325px] h-[97px] rounded-xl text-4xl flex justify-center items-center">
                 +19 Foto
             </div>
         </div>
@@ -36,32 +35,27 @@
                 </a>
             </li>
             <li>
-                <a href="#"
-                    class="w-[229px] h-[57px] border-2 border-black px-[30px] py-[10px] font-light">
+                <a href="#detail" class="w-[229px] h-[57px] border-2 border-black px-[30px] py-[10px] font-light">
                     Detail Lokasi
                 </a>
             </li>
             <li>
-                <a href="#"
-                    class="w-[229px] h-[57px] border-2 border-black px-[30px] py-[10px] font-light">
+                <a href="#tipe" class="w-[229px] h-[57px] border-2 border-black px-[30px] py-[10px] font-light">
                     Pilih Tipe Ruangan
                 </a>
             </li>
             <li>
-                <a href="#"
-                    class="w-[229px] h-[57px] border-2 border-black px-[30px] py-[10px] font-light">
+                <a href="#" class="w-[229px] h-[57px] border-2 border-black px-[30px] py-[10px] font-light">
                     Peraturan
                 </a>
             </li>
             <li>
-                <a href="#"
-                    class="w-[229px] h-[57px] border-2 border-black px-[30px] py-[10px] font-light">
+                <a href="#" class="w-[229px] h-[57px] border-2 border-black px-[30px] py-[10px] font-light">
                     FAQ
                 </a>
             </li>
             <li>
-                <a href="#"
-                    class="w-[229px] h-[57px] border-2 border-black px-[30px] py-[10px] font-light">
+                <a href="#" class="w-[229px] h-[57px] border-2 border-black px-[30px] py-[10px] font-light">
                     Testimoni
                 </a>
             </li>
@@ -69,7 +63,7 @@
     </div>
     {{-- button --}}
 
-    <div class="mt-32 ">
+    <div class="mt-32 " id="fasilitas">
         <h1 class="font-bold text-5xl">Fasilitas Gedung</h1>
         <div class="mt-20 grid grid-rows-4 grid-flow-col w-full gap-y-10">
             <div class="flex flex-row">
@@ -105,8 +99,8 @@
         </div>
     </div>
 
-
-    <div class="mt-28 relative">
+    {{-- Detail Lokasi --}}
+    <div class="mt-28 relative" id="detail">
         <h1 class=" text-5xl font-bold">Detail Lokasi</h1>
         <div class="absolute border-2 border-black w-full h-[657px] p-9 mt-20 rounded-3xl">
             <div class="relative ">
@@ -148,35 +142,34 @@
                         </div>
                         <div class="flex flex-row justify-between mb-[21px]">
                             <div>
-                                <h1 class="font-semibold text-[22px]">Plaza Marina</h1>
+                                <h1 class="font-semibold text-[22px]">Royal Plaza</h1>
                                 <p class="font-light text-base text-[#5A5A5A]">Pusat perbelanjaan dan
                                     hiburan
                                 </p>
                             </div>
                             <div class="ml-auto text-[#5A5A5A] font-light text-[22px]">
-                                5 menit
+                                10 menit
                             </div>
                         </div>
                         <div class="flex flex-row justify-between mb-[21px]">
                             <div>
-                                <h1 class="font-semibold text-[22px]">Plaza Marina</h1>
-                                <p class="font-light text-base text-[#5A5A5A]">Pusat perbelanjaan dan
-                                    hiburan
+                                <h1 class="font-semibold text-[22px]">UK Petra</h1>
+                                <p class="font-light text-base text-[#5A5A5A]">Perguruan Tinggi Universitas
                                 </p>
                             </div>
                             <div class="ml-auto text-[#5A5A5A] font-light text-[22px]">
-                                5 menit
+                                15 menit
                             </div>
                         </div>
                         <div class="flex flex-row justify-between mb-[21px]">
                             <div>
-                                <h1 class="font-semibold text-[22px]">Plaza Marina</h1>
+                                <h1 class="font-semibold text-[22px]">Trans Icon</h1>
                                 <p class="font-light text-base text-[#5A5A5A]">Pusat perbelanjaan dan
                                     hiburan
                                 </p>
                             </div>
                             <div class="ml-auto text-[#5A5A5A] font-light text-[22px]">
-                                5 menit
+                                15 menit
                             </div>
                         </div>
 
@@ -185,232 +178,247 @@
             </div>
         </div>
     </div>
+    {{-- Detail Lokasi --}}
 
     {{-- Tipe Ruangan --}}
-    <div class="mt-[969px]">
+    <div class="mt-[969px]" id="tipe">
         <div class="">
             <h1 class="font-bold text-5xl">Tipe Ruangan</h1>
-            <div
-                class="border-2 border-black w-full h-[381px] mt-[90px] rounded-[18px] pl-[30px] pb-[35px] pt-[22px]">
-                <h1 class="font-semibold text-[22px]">HALL UKURAN BESAR</h1>
-                <div class="flex flex-row gap-x-[44px]">
-                    <div>
-                        <img src="{{ asset('images/location/ruangan.png') }}"
-                            class="h-[275px] mt-[19px]" />
+            <a href="#">
+                <div
+                    class="border-2 border-black w-full h-[381px] mt-[90px] rounded-[18px] pl-[30px] pb-[35px] pt-[22px]">
+                    <h1 class="font-semibold text-[22px]">HALL UKURAN BESAR</h1>
+                    <div class="flex flex-row gap-x-[44px]">
+                        <div>
+                            <img src="{{ asset('images/location/ruangan.png') }}" class="h-[275px] mt-[19px]" />
+                        </div>
+                        <div>
+                            <h1 class="font-semibold text-[31px] text-redMarkas font-lexendPeta">TJOKRO HALL</h1>
+                            <p class="text-base text-[#5A5A5A] my-[20px]">Area komunal
+                                untuk untuk
+                                kegiatan seminar, talkshow, dan workshop.</p>
+                            <p class="text-base text-redMarkas mt-4">Fasilitas:</p>
+
+                            <ul class="mt-2 grid grid-rows-2 grid-flow-col w-full gap-y-4 list-disc pl-5">
+                                <li class="text-base">Tempat duduk</li>
+                                <li class="text-base">Perlengkapan audio</li>
+                                <li class="text-base">Mikrofon</li>
+                                <li class="text-base">Proyektor</li>
+                                <li class="text-base">Podium</li>
+                                <li class="text-base">Lightning</li>
+                            </ul>
+
+                            <p class="text-base text-redMarkas mt-[20px]">Kapasitas Maksimal: <span
+                                    class="text-black font-semibold font-semibold">50 orang</span></p>
+                        </div>
+
                     </div>
-                    <div>
-                        <h1 class="font-semibold text-[31px] text-redMarkas font-lexendPeta">TJOKRO HALL</h1>
-                        <p class="text-base text-[#5A5A5A] my-[20px]">Area komunal
-                            untuk untuk
-                            kegiatan seminar, talkshow, dan workshop.</p>
-                        <p class="text-base text-redMarkas mt-4">Fasilitas:</p>
-
-                        <ul class="mt-2 grid grid-rows-2 grid-flow-col w-full gap-y-4 list-disc pl-5">
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                        </ul>
-
-                        <p class="text-base text-redMarkas mt-[20px]">Kapasitas Maksimal: <span
-                                class="text-black">50 orang</span></p>
-                    </div>
-
                 </div>
-            </div>
+            </a>
         </div>
 
         <div class="mt-[44px]">
-            <div
-                class="border-2 border-black w-full h-[381px] mt-[90px] rounded-[18px] pl-[30px] pb-[35px] pt-[22px]">
-                <h1 class="font-semibold text-[22px]">HALL UKURAN BESAR</h1>
-                <div class="flex flex-row gap-x-[44px]">
-                    <div>
-                        <img src="{{ asset('images/location/ruangan.png') }}"
-                            class="h-[275px] mt-[19px]" />
+            <a href="#">
+                <div
+                    class="border-2 border-black w-full h-[381px] mt-[90px] rounded-[18px] pl-[30px] pb-[35px] pt-[22px]">
+                    <h1 class="font-semibold text-[22px]">RUANG WORKSHOP</h1>
+                    <div class="flex flex-row gap-x-[44px]">
+                        <div>
+                            <img src="{{ asset('images/location/ruangan.png') }}" class="h-[275px] mt-[19px]" />
+                        </div>
+                        <div>
+                            <h1 class="font-semibold text-[31px] text-redMarkas font-lexendPeta">LINGGARJATI</h1>
+                            <p class="text-base text-[#5A5A5A] my-[20px]">Area komunal
+                                untuk untuk
+                                kegiatan seminar, talkshow, dan workshop.</p>
+                            <p class="text-base text-redMarkas mt-4">Fasilitas:</p>
+
+                            <ul class="mt-2 grid grid-rows-2 grid-flow-col w-full gap-y-4 list-disc pl-5">
+                                <li class="text-base">Tempat duduk</li>
+                                <li class="text-base">Perlengkapan audio</li>
+                                <li class="text-base">Mikrofon</li>
+                                <li class="text-base">Proyektor</li>
+                                <li class="text-base">Podium</li>
+                                <li class="text-base">Lightning</li>
+                            </ul>
+
+                            <p class="text-base text-redMarkas mt-[20px]">Kapasitas Maksimal: <span
+                                    class="text-black font-semibold">50 orang</span></p>
+                        </div>
+
                     </div>
-                    <div>
-                        <h1 class="font-semibold text-[31px] text-redMarkas font-lexendPeta">TJOKRO HALL</h1>
-                        <p class="text-base text-[#5A5A5A] my-[20px]">Area komunal
-                            untuk untuk
-                            kegiatan seminar, talkshow, dan workshop.</p>
-                        <p class="text-base text-redMarkas mt-4">Fasilitas:</p>
-
-                        <ul class="mt-2 grid grid-rows-2 grid-flow-col w-full gap-y-4 list-disc pl-5">
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                        </ul>
-
-                        <p class="text-base text-redMarkas mt-[20px]">Kapasitas Maksimal: <span
-                                class="text-black">50 orang</span></p>
-                    </div>
-
                 </div>
-            </div>
+            </a>
         </div>
 
         <div class="mt-[44px]">
-            <div
-                class="border-2 border-black w-full h-[381px] mt-[90px] rounded-[18px] pl-[30px] pb-[35px] pt-[22px]">
-                <h1 class="font-semibold text-[22px]">HALL UKURAN BESAR</h1>
-                <div class="flex flex-row gap-x-[44px]">
-                    <div>
-                        <img src="{{ asset('images/location/ruangan.png') }}"
-                            class="h-[275px] mt-[19px]" />
+            <a href="#">
+                <div
+                    class="border-2 border-black w-full h-[381px] mt-[90px] rounded-[18px] pl-[30px] pb-[35px] pt-[22px]">
+                    <h1 class="font-semibold text-[22px]">RUANG WORKSHOP</h1>
+                    <div class="flex flex-row gap-x-[44px]">
+                        <div>
+                            <img src="{{ asset('images/location/ruangan.png') }}" class="h-[275px] mt-[19px]" />
+                        </div>
+                        <div>
+                            <h1 class="font-semibold text-[31px] text-redMarkas font-lexendPeta">RENVILLE</h1>
+                            <p class="text-base text-[#5A5A5A] my-[20px]">Area komunal
+                                untuk untuk
+                                kegiatan seminar, talkshow, dan workshop.</p>
+                            <p class="text-base text-redMarkas mt-4">Fasilitas:</p>
+
+                            <ul class="mt-2 grid grid-rows-2 grid-flow-col w-full gap-y-4 list-disc pl-5">
+                                <li class="text-base">Tempat duduk</li>
+                                <li class="text-base">Perlengkapan audio</li>
+                                <li class="text-base">Mikrofon</li>
+                                <li class="text-base">Proyektor</li>
+                                <li class="text-base">Podium</li>
+                                <li class="text-base">Lightning</li>
+                            </ul>
+
+                            <p class="text-base text-redMarkas mt-[20px]">Kapasitas Maksimal: <span
+                                    class="text-black font-semibold">50 orang</span></p>
+                        </div>
+
                     </div>
-                    <div>
-                        <h1 class="font-semibold text-[31px] text-redMarkas font-lexendPeta">TJOKRO HALL</h1>
-                        <p class="text-base text-[#5A5A5A] my-[20px]">Area komunal
-                            untuk untuk
-                            kegiatan seminar, talkshow, dan workshop.</p>
-                        <p class="text-base text-redMarkas mt-4">Fasilitas:</p>
-
-                        <ul class="mt-2 grid grid-rows-2 grid-flow-col w-full gap-y-4 list-disc pl-5">
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                        </ul>
-
-                        <p class="text-base text-redMarkas mt-[20px]">Kapasitas Maksimal: <span
-                                class="text-black">50 orang</span></p>
-                    </div>
-
                 </div>
-            </div>
+            </a>
         </div>
 
         <div class="mt-[44px]">
-            <div
-                class="border-2 border-black w-full h-[381px] mt-[90px] rounded-[18px] pl-[30px] pb-[35px] pt-[22px]">
-                <h1 class="font-semibold text-[22px]">HALL UKURAN BESAR</h1>
-                <div class="flex flex-row gap-x-[44px]">
-                    <div>
-                        <img src="{{ asset('images/location/ruangan.png') }}"
-                            class="h-[275px] mt-[19px]" />
+            <a href="#">
+                <div
+                    class="border-2 border-black w-full h-[381px] mt-[90px] rounded-[18px] pl-[30px] pb-[35px] pt-[22px]">
+                    <h1 class="font-semibold text-[22px]">RUANG WORKSHOP</h1>
+                    <div class="flex flex-row gap-x-[44px]">
+                        <div>
+                            <img src="{{ asset('images/location/ruangan.png') }}" class="h-[275px] mt-[19px]" />
+                        </div>
+                        <div>
+                            <h1 class="font-semibold text-[31px] text-redMarkas font-lexendPeta">ROEM-ROYEN</h1>
+                            <p class="text-base text-[#5A5A5A] my-[20px]">Area komunal
+                                untuk untuk
+                                kegiatan seminar, talkshow, dan workshop.</p>
+                            <p class="text-base text-redMarkas mt-4">Fasilitas:</p>
+
+                            <ul class="mt-2 grid grid-rows-2 grid-flow-col w-full gap-y-4 list-disc pl-5">
+                                <li class="text-base">Tempat duduk</li>
+                                <li class="text-base">Perlengkapan audio</li>
+                                <li class="text-base">Mikrofon</li>
+                                <li class="text-base">Proyektor</li>
+                                <li class="text-base">Podium</li>
+                                <li class="text-base">Lightning</li>
+                            </ul>
+
+                            <p class="text-base text-redMarkas mt-[20px]">Kapasitas Maksimal: <span
+                                    class="text-black font-semibold">50 orang</span></p>
+                        </div>
+
                     </div>
-                    <div>
-                        <h1 class="font-semibold text-[31px] text-redMarkas font-lexendPeta">TJOKRO HALL</h1>
-                        <p class="text-base text-[#5A5A5A] my-[20px]">Area komunal
-                            untuk untuk
-                            kegiatan seminar, talkshow, dan workshop.</p>
-                        <p class="text-base text-redMarkas mt-4">Fasilitas:</p>
-
-                        <ul class="mt-2 grid grid-rows-2 grid-flow-col w-full gap-y-4 list-disc pl-5">
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                        </ul>
-
-                        <p class="text-base text-redMarkas mt-[20px]">Kapasitas Maksimal: <span
-                                class="text-black">50 orang</span></p>
-                    </div>
-
                 </div>
-            </div>
+            </a>
         </div>
 
         <div class="mt-[44px]">
-            <div
-                class="border-2 border-black w-full h-[381px] mt-[90px] rounded-[18px] pl-[30px] pb-[35px] pt-[22px]">
-                <h1 class="font-semibold text-[22px]">HALL UKURAN BESAR</h1>
-                <div class="flex flex-row gap-x-[44px]">
-                    <div>
-                        <img src="{{ asset('images/location/ruangan.png') }}"
-                            class="h-[275px] mt-[19px]" />
+            <a href="#">
+                <div
+                    class="border-2 border-black w-full h-[381px] mt-[90px] rounded-[18px] pl-[30px] pb-[35px] pt-[22px]">
+                    <h1 class="font-semibold text-[22px]">RUANG MEETING</h1>
+                    <div class="flex flex-row gap-x-[44px]">
+                        <div>
+                            <img src="{{ asset('images/location/ruangan.png') }}" class="h-[275px] mt-[19px]" />
+                        </div>
+                        <div>
+                            <h1 class="font-semibold text-[31px] text-redMarkas font-lexendPeta">SOEKARNO</h1>
+                            <p class="text-base text-[#5A5A5A] my-[20px]">Area komunal
+                                untuk untuk
+                                kegiatan seminar, talkshow, dan workshop.</p>
+                            <p class="text-base text-redMarkas mt-4">Fasilitas:</p>
+
+                            <ul class="mt-2 grid grid-rows-2 grid-flow-col w-full gap-y-4 list-disc pl-5">
+                                <li class="text-base">Tempat duduk</li>
+                                <li class="text-base">Perlengkapan audio</li>
+                                <li class="text-base">Mikrofon</li>
+                                <li class="text-base">Proyektor</li>
+                                <li class="text-base">Podium</li>
+                                <li class="text-base">Lightning</li>
+                            </ul>
+
+                            <p class="text-base text-redMarkas mt-[20px]">Kapasitas Maksimal: <span
+                                    class="text-black font-semibold">50 orang</span></p>
+                        </div>
+
                     </div>
-                    <div>
-                        <h1 class="font-semibold text-[31px] text-redMarkas font-lexendPeta">TJOKRO HALL</h1>
-                        <p class="text-base text-[#5A5A5A] my-[20px]">Area komunal
-                            untuk untuk
-                            kegiatan seminar, talkshow, dan workshop.</p>
-                        <p class="text-base text-redMarkas mt-4">Fasilitas:</p>
-
-                        <ul class="mt-2 grid grid-rows-2 grid-flow-col w-full gap-y-4 list-disc pl-5">
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                        </ul>
-
-                        <p class="text-base text-redMarkas mt-[20px]">Kapasitas Maksimal: <span
-                                class="text-black">50 orang</span></p>
-                    </div>
-
                 </div>
-            </div>
+            </a>
         </div>
 
         <div class="mt-[44px]">
-            <div
-                class="border-2 border-black w-full h-[381px] mt-[90px] rounded-[18px] pl-[30px] pb-[35px] pt-[22px]">
-                <h1 class="font-semibold text-[22px]">HALL UKURAN BESAR</h1>
-                <div class="flex flex-row gap-x-[44px]">
-                    <div>
-                        <img src="{{ asset('images/location/ruangan.png') }}"
-                            class="h-[275px] mt-[19px]" />
+            <a href="#">
+                <div
+                    class="border-2 border-black w-full h-[381px] mt-[90px] rounded-[18px] pl-[30px] pb-[35px] pt-[22px]">
+                    <h1 class="font-semibold text-[22px]">RUANG MEETING</h1>
+                    <div class="flex flex-row gap-x-[44px]">
+                        <div>
+                            <img src="{{ asset('images/location/ruangan.png') }}" class="h-[275px] mt-[19px]" />
+                        </div>
+                        <div>
+                            <h1 class="font-semibold text-[31px] text-redMarkas font-lexendPeta">KARTINI</h1>
+                            <p class="text-base text-[#5A5A5A] my-[20px]">Area komunal
+                                untuk untuk
+                                kegiatan seminar, talkshow, dan workshop.</p>
+                            <p class="text-base text-redMarkas mt-4">Fasilitas:</p>
+
+                            <ul class="mt-2 grid grid-rows-2 grid-flow-col w-full gap-y-4 list-disc pl-5">
+                                <li class="text-base">Tempat duduk</li>
+                                <li class="text-base">Perlengkapan audio</li>
+                                <li class="text-base">Mikrofon</li>
+                                <li class="text-base">Proyektor</li>
+                                <li class="text-base">Podium</li>
+                                <li class="text-base">Lightning</li>
+                            </ul>
+
+                            <p class="text-base text-redMarkas mt-[20px]">Kapasitas Maksimal: <span
+                                    class="text-black font-semibold">50 orang</span></p>
+                        </div>
+
                     </div>
-                    <div>
-                        <h1 class="font-semibold text-[31px] text-redMarkas font-lexendPeta">TJOKRO HALL</h1>
-                        <p class="text-base text-[#5A5A5A] my-[20px]">Area komunal
-                            untuk untuk
-                            kegiatan seminar, talkshow, dan workshop.</p>
-                        <p class="text-base text-redMarkas mt-4">Fasilitas:</p>
-
-                        <ul class="mt-2 grid grid-rows-2 grid-flow-col w-full gap-y-4 list-disc pl-5">
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                        </ul>
-
-                        <p class="text-base text-redMarkas mt-[20px]">Kapasitas Maksimal: <span
-                                class="text-black">50 orang</span></p>
-                    </div>
-
                 </div>
-            </div>
+            </a>
         </div>
 
         <div class="mt-[44px]">
-            <div
-                class="border-2 border-black w-full h-[381px] mt-[90px] rounded-[18px] pl-[30px] pb-[35px] pt-[22px]">
-                <h1 class="font-semibold text-[22px]">HALL UKURAN BESAR</h1>
-                <div class="flex flex-row gap-x-[44px]">
-                    <div>
-                        <img src="{{ asset('images/location/ruangan.png') }}"
-                            class="h-[275px] mt-[19px]" />
+            <a href="#">
+                <div
+                    class="border-2 border-black w-full h-[381px] mt-[90px] rounded-[18px] pl-[30px] pb-[35px] pt-[22px]">
+                    <h1 class="font-semibold text-[22px]">RUANG MEETING</h1>
+                    <div class="flex flex-row gap-x-[44px]">
+                        <div>
+                            <img src="{{ asset('images/location/ruangan.png') }}" class="h-[275px] mt-[19px]" />
+                        </div>
+                        <div>
+                            <h1 class="font-semibold text-[31px] text-redMarkas">SOEPRATMAN</h1>
+                            <p class="text-base text-[#5A5A5A] my-[20px]">Area komunal
+                                untuk untuk
+                                kegiatan seminar, talkshow, dan workshop.</p>
+                            <p class="text-base text-redMarkas mt-4">Fasilitas:</p>
+
+                            <ul class="mt-2 grid grid-rows-2 grid-flow-col w-full gap-y-4 list-disc pl-5">
+                                <li class="text-base">Tempat duduk</li>
+                                <li class="text-base">Perlengkapan audio</li>
+                                <li class="text-base">Mikrofon</li>
+                                <li class="text-base">Proyektor</li>
+                                <li class="text-base">Podium</li>
+                                <li class="text-base">Lightning</li>
+                            </ul>
+
+                            <p class="text-base text-redMarkas mt-[20px]">Kapasitas Maksimal: <span
+                                    class="text-black font-semibold">50 orang</span></p>
+                        </div>
+
                     </div>
-                    <div>
-                        <h1 class="font-semibold text-[31px] text-redMarkas">TJOKRO HALL</h1>
-                        <p class="text-base text-[#5A5A5A] my-[20px]">Area komunal
-                            untuk untuk
-                            kegiatan seminar, talkshow, dan workshop.</p>
-                        <p class="text-base text-redMarkas mt-4">Fasilitas:</p>
-
-                        <ul class="mt-2 grid grid-rows-2 grid-flow-col w-full gap-y-4 list-disc pl-5">
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                            <li class="text-base">Tempat Parkir</li>
-                        </ul>
-
-                        <p class="text-base text-redMarkas mt-[20px]">Kapasitas Maksimal: <span
-                                class="text-black">50 orang</span></p>
-                    </div>
-
                 </div>
-            </div>
+            </a>
         </div>
 
     </div>

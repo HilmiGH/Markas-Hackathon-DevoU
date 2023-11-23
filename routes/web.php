@@ -18,4 +18,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', Home::class);
 Route::get('/about', About::class);
-Route::get('/location', Location::class);
+Route::get('/booking', Location::class);
