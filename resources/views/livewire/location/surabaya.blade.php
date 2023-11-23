@@ -184,7 +184,7 @@
     <div class="mt-[969px]" id="tipe">
         <div class="">
             <h1 class="font-bold text-5xl">Tipe Ruangan</h1>
-            <a href="#">
+            <a href="/checkout-calendar">
                 <div
                     class="border-2 border-black w-full h-[381px] mt-[90px] rounded-[18px] pl-[30px] pb-[35px] pt-[22px]">
                     <h1 class="font-semibold text-[22px]">HALL UKURAN BESAR</h1>
