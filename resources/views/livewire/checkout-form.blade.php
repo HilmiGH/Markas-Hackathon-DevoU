@@ -31,40 +31,40 @@
         <form action="" style="display: flex; flex-direction: column">
             <div style="display: flex; flex-direction: column">
                 <label class="font-lexendMega font-bold ml-4 mb-4 mt-4" for="nama">Nama</label>
-                <input class="font-lexendMega" id="name" name="name" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
+                <input class="font-lexendMega" wire:model="name" id="name" name="name" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
             </div>
             <div style="display: flex; flex-direction: column">
                 <label class="font-lexendMega font-bold ml-4 mb-4 mt-8" for="gender">Gender</label>
                 <div class="flex align-middle">
-                    <input class="font-lexendMega h-6 w-6 ml-4 mr-2" type="radio" name="gender" id="male" value="male">
+                    <input class="font-lexendMega h-6 w-6 ml-4 mr-2" wire:model="gender" type="radio" name="gender" id="male" value="male">
                     <label class="font-lexendMega font-semibold mr-8" for="male">Male</label>
-                    <input class="font-lexendMega h-6 w-6 mr-2" type="radio" name="gender" id="female" value="female">
+                    <input class="font-lexendMega h-6 w-6 mr-2" wire:model="gender" type="radio" name="gender" id="female" value="female">
                     <label class="font-lexendMega font-semibold" for="female">Female</label>
                 </div>
             </div>
             <div style="display: flex; flex-direction: column">
                 <label class="font-lexendMega font-bold ml-4 mb-4 mt-8" class="font-lexendMega" for="email">Email</label>
-                <input class="font-lexendMega" id="email" name="email" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
+                <input class="font-lexendMega" wire:model="email" id="email" name="email" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
             </div>
             <div style="display: flex; flex-direction: column">
                 <label class="font-lexendMega font-bold ml-4 mb-4 mt-8" for="nomor_telepon">Nomor Telepon</label>
-                <input class="font-lexendMega" id="nomor_telepon" name="nomor_telepon" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
+                <input class="font-lexendMega" wire:model="email" id="nomor_telepon" name="nomor_telepon" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
             </div>
             <div style="display: flex; flex-direction: column">
-                <label class="font-lexendMega font-bold ml-4 mb-4 mt-8" for="instansi">Instansi/Komunitas/Perusahaan</label>
-                <input class="font-lexendMega" id="instansi" name="instansi" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
+                <label class="font-lexendMega font-bold ml-4 mb-4 mt-8" for="institution">Instansi/Komunitas/Perusahaan</label>
+                <input class="font-lexendMega" wire:model="institution" id="institution" name="institution" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
             </div>
             <div style="display: flex; flex-direction: column">
                 <label class="font-lexendMega font-bold ml-4 mb-4 mt-8" for="jenis_kegiatan">Jenis Kegiatan</label>
-                <input class="font-lexendMega" id="nama_kegiatan" name="nama_kegiatan" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
+                <input class="font-lexendMega" wire:model="institution" id="nama_kegiatan" name="nama_kegiatan" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
             </div>
             <div style="display: flex; flex-direction: column">
                 <label class="font-lexendMega font-bold ml-4 mb-4 mt-8" for="nama_kegiatan">Nama Kegiatan</label>
-                <input class="font-lexendMega" id="nama_kegiatan" name="nama_kegiatan" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
+                <input class="font-lexendMega" wire:model="event" id="event" name="event" style="border: 1px solid #000; border-radius: 36px; padding: 16px" type="text">
             </div>
             <div style="display: flex; flex-direction: column">
                 <label class="font-lexendMega font-bold ml-4 mb-4 mt-8" for="deskripsi_singkat">Deskripsi Singkat</label>
-                <textarea class="font-lexendMega" id="deskripsi_kegiatan" name="deskripsi_kegiatan" cols="30" rows="10" style="border: 1px solid #000; border-radius: 36px; padding: 16px"></textarea>
+                <textarea class="font-lexendMega" wire:model="description" id="description" name="description" cols="30" rows="10" style="border: 1px solid #000; border-radius: 36px; padding: 16px"></textarea>
             </div>
         </form>
         <a href="{{ url('/checkout-form') }}" class="bg-redMarkas mt-8 float-right" style="border-radius: 24px; padding-block: 16px; padding-inline: 45px;">
@@ -72,5 +72,6 @@
                 Pesan
             </span>
         </a>
+        <button type="submit"></button>
     </section>
 </div>
