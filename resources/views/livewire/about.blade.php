@@ -14,10 +14,10 @@
     </div>
 
     {{-- Filosofi --}}
-    <div class="flex flex-col justify-center items-center w-10/12 mx-auto">
+    <div class="flex flex-col justify-center items-center w-10/12 mx-auto pt-20" id="philosophy">
         <div class="flex flex-col items-center justify-center w-11/12 text-center">
             <h2 class="text-redMarkas text-[28px] leading-none uppercase font-semibold font-lexendPeta">Filosofi</h2>
-            <h3 class="text-5xl font-extrabold mt-5">Inkullsif Dan Kolaboratif</h3>
+            <h3 class="text-5xl font-extrabold mt-5">Inklusif Dan Kolaboratif</h3>
             <p class="text-xl font-light mt-9 leading-relaxed">Sejak diinisiasi di tahun 2016, semangat
                 #1000StartupDigital adalah untuk berkolaborasi
                 membuat ekosistem startup Indonesia menjadi
