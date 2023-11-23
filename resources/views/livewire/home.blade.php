@@ -3,7 +3,7 @@
     {{-- Hero --}}
     <div class="relative z-10 flex flex-col w-screen h-screen items-center justify-center">
         <img src="{{ asset('images/Picture.png') }}" class="absolute inset-0 z-0 w-screen" />
-        <h1 class="text-[96px] font-light relative z-10 text-white font-lexendMega">MARKAS</h1>
+        <h1 class="text-[96px] relative z-10 text-white font-lexendMega font-semibold">MARKAS</h1>
         <h1 class="text-xl font-light relative z-10 text-white font-lexendMega">A hub for startup
             founders to grow with the ecosystem.</h1>
     </div>
