@@ -2,6 +2,9 @@
 
 use App\Livewire\About;
 use App\Livewire\Home;
+use App\Livewire\CheckoutCalendar;
+use App\Livewire\CheckoutForm;
+use App\Livewire\CheckoutSuccess;
 use App\Livewire\Booking;
 use Illuminate\Support\Facades\Route;
 
@@ -19,3 +22,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', Home::class);
 Route::get('/about', About::class);
 Route::get('/booking', Booking::class);
+Route::get('/checkout-calendar', CheckoutCalendar::class);
+Route::get('/checkout-form', CheckoutForm::class);
+Route::get('/checkout-success', CheckoutSuccess::class);Route::get('/booking', Booking::class);
