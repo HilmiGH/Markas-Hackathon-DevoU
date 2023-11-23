@@ -16,7 +16,7 @@
     {{-- Kegiatan Kami --}}
     <div class="mt-40 flex flex-col justify-center items-center w-10/12 mx-auto gap-y-6">
         <div class="flex flex-col items-start justify-start w-full">
-            <h2 class="text-black text-5xl leading-none uppercase font-extrabold font-lexendPeta">Ikuti Kegiatan Kami
+            <h2 class="text-black text-5xl leading-none uppercase font-extrabold font-lexendDeca">Ikuti Kegiatan Kami
                 di Markas</h2>
             <p class="text-xl font-light mt-9 leading-relaxed">Jangan lewatkan event event seru di MARKAS
             </p>
@@ -70,12 +70,12 @@
                     <image src="{{ asset('images/Rectangle 5 (1).png') }}" class="" />
                 </div>
                 <div class="flex flex-col items-start w-full">
-                    <h5 class="text-redMarkas text-xl font-light">Gain Knowledge</h5>
-                    <h4 class="text-[28px] leading-none font-semibold mt-3">Ruang Belajar</h4>
+                    <h5 class="text-redMarkas text-xl font-light">Get Mentored</h5>
+                    <h4 class="text-[28px] leading-none font-semibold mt-3">Tempat Berkonsultasi</h4>
                     <p class="text-xl font-light mt-5 leading-relaxed max-w-2xl">
-                        MARKAS sangat mengedepankan
-                        kegunaan ruang untuk menunjang
-                        aktivitas penggunanya.
+                        Fasilitas pertemuan singkat
+                        maupun diskusi panjang untuk
+                        mengolah ide menjadi nyata.
                     </p>
                 </div>
             </div>
@@ -85,12 +85,12 @@
                     <image src="{{ asset('images/Rectangle 5 (1).png') }}" class="" />
                 </div>
                 <div class="flex flex-col items-start w-full">
-                    <h5 class="text-redMarkas text-xl font-light">Gain Knowledge</h5>
-                    <h4 class="text-[28px] leading-none font-semibold mt-3">Ruang Belajar</h4>
+                    <h5 class="text-redMarkas text-xl font-light">Expand Network</h5>
+                    <h4 class="text-[28px] leading-none font-semibold mt-3">Wadah Berkolaborasi</h4>
                     <p class="text-xl font-light mt-5 leading-relaxed max-w-2xl">
-                        MARKAS sangat mengedepankan
-                        kegunaan ruang untuk menunjang
-                        aktivitas penggunanya.
+                        Area kerja bersama yang dapat
+                        diakses para startup founder dan stakeholder
+                        startup.
                     </p>
                 </div>
             </div>
@@ -178,27 +178,10 @@
 
         </div>
         <div class="flex flex-row">
-            <div class="flex flex-col mt-20 ml-20 z-10 w-1/2">
-                <div class="flex flex-row gap-x-6">
-                    <img class="rounded-full w-[112px] z-10" src="{{ asset('images/Ellipse 18.png') }}"
-                        alt="">
-                    <div class="flex flex-col">
-                        <div class="text-white z-10 text-[40px] font-semibold">David Nasrulloh</div>
-                        <div class="text-white z-10">Elux Space - Malang, Jawa Timur</div>
-                    </div>
-                </div>
-                <div class="flex mt-10 mb-6 text-[32px]">
-                    ⭐ ⭐ ⭐ ⭐ ⭐
-                </div>
-                <div class="flex text-white text-[24px]">
-                    Kami memulai perjalanan kami di MARKAS dan tidak pernah menyesalinya. Tempat yang penuh dengan
-                    sumber
-                    daya dan inspirasi.
-                </div>
-            </div>
+
             <div class="flex flex-col mt-20 ml-10 z-10 w-1/2">
                 <div class="flex flex-row gap-x-6">
-                    <img class="rounded-full w-[112px] z-10" src="{{ asset('images/Ellipse 18 (1).png') }}"
+                    <img class="rounded-full w-[112px] z-10" src="{{ asset('images/Ellipse 18.png') }}"
                         alt="">
                     <div class="flex flex-col">
                         <div class="text-white z-10 text-[40px] font-semibold">Lexi Handi Nayana</div>
@@ -212,6 +195,22 @@
                     Kami memulai perjalanan kami di MARKAS dan tidak pernah menyesalinya. Tempat yang penuh dengan
                     sumber
                     daya dan inspirasi.
+                </div>
+            </div>
+            <div class="flex flex-col mt-20 ml-20 z-10 w-1/2">
+                <div class="flex flex-row gap-x-6">
+                    <img class="rounded-full w-[112px] z-10" src="{{ asset('images/Ellipse 18 (1).png') }}"
+                        alt="">
+                    <div class="flex flex-col">
+                        <div class="text-white z-10 text-[40px] font-semibold">David Nasrulloh</div>
+                        <div class="text-white z-10">Elux Space - Malang, Jawa Timur</div>
+                    </div>
+                </div>
+                <div class="flex mt-10 mb-6 text-[32px]">
+                    ⭐ ⭐ ⭐ ⭐ ⭐
+                </div>
+                <div class="flex text-white text-[24px]">
+                    Ruang pertemuan MARKAS membantu kami untuk menggelar pertemuan dengan investor dengan mudah.
                 </div>
             </div>
         </div>
