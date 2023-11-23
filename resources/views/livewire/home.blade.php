@@ -8,7 +8,7 @@
             founders to grow with the ecosystem.</h1>
     </div>
 
-    <div class="h-40 w-screen bg-redMarkas flex items-center justify-center mt-56">
+    <div class="h-40 w-screen bg-redMarkas flex items-center justify-center mt-56 relative z-20">
         <div class="text-white  text-[30px] font-lexendMega self-center">GAIN KNOWLEDGE - GET MENTORED - EXPAND NETWORK
         </div>
     </div>
@@ -181,7 +181,8 @@
 
             <div class="flex flex-col mt-20 ml-10 z-10 w-1/2">
                 <div class="flex flex-row gap-x-6">
-                    <img class="rounded-full w-[112px] z-10" src="{{ asset('images/Ellipse 18.png') }}" alt="">
+                    <img class="rounded-full w-[112px] z-10" src="{{ asset('images/Ellipse 18.png') }}"
+                        alt="">
                     <div class="flex flex-col">
                         <div class="text-white z-10 text-[40px] font-semibold">Lexi Handi Nayana</div>
                         <div class="text-white z-10">BuddyP2P - Hamburg, Jerman</div>
@@ -198,7 +199,8 @@
             </div>
             <div class="flex flex-col mt-20 ml-20 z-10 w-1/2">
                 <div class="flex flex-row gap-x-6">
-                    <img class="rounded-full w-[112px] z-10" src="{{ asset('images/Ellipse 18 (1).png') }}" alt="">
+                    <img class="rounded-full w-[112px] z-10" src="{{ asset('images/Ellipse 18 (1).png') }}"
+                        alt="">
                     <div class="flex flex-col">
                         <div class="text-white z-10 text-[40px] font-semibold">David Nasrulloh</div>
                         <div class="text-white z-10">Elux Space - Malang, Jawa Timur</div>

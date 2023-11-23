@@ -14,10 +14,10 @@
     </div>
 
     {{-- Filosofi --}}
-    <div class="flex flex-col justify-center items-center w-10/12 mx-auto" id="philosophy">
+    <div class="flex flex-col justify-center items-center w-10/12 mx-auto pt-20" id="philosophy">
         <div class="flex flex-col items-center justify-center w-11/12 text-center">
             <h2 class="text-redMarkas text-[28px] leading-none uppercase font-semibold font-lexendPeta">Filosofi</h2>
-            <h3 class="text-5xl font-extrabold mt-5">Inkullsif Dan Kolaboratif</h3>
+            <h3 class="text-5xl font-extrabold mt-5">Inklusif Dan Kolaboratif</h3>
             <p class="text-xl font-light mt-9 leading-relaxed">Sejak diinisiasi di tahun 2016, semangat
                 #1000StartupDigital adalah untuk berkolaborasi
                 membuat ekosistem startup Indonesia menjadi
@@ -142,7 +142,8 @@
                 class="flex flex-col items-center justify-center text-center w-[266px] h-[378px] px-8 py-2 rounded-2xl bg-white  shadow-sm gap-y-5 -translate-y-7">
                 <image src="{{ asset('images/about/government-emoji.png') }}" class="w-[130px]" />
                 <h5 class="text-liteBlack text-xl font-semibold">Pemerintahan</h5>
-                <p class="">Dukungan dalam legalitas dan yuridis sangatlah diperlukan, oleh karenanya ahli-ahli dalam
+                <p class="">Dukungan dalam legalitas dan yuridis sangatlah diperlukan, oleh karenanya ahli-ahli
+                    dalam
                     hukum dihadirkan dalam suatu forum diskusi terbuka.</p>
             </div>
             {{-- Cards 2 --}}
@@ -150,7 +151,8 @@
                 class="flex flex-col items-center justify-center text-center w-[266px] h-[378px] px-8 py-2 rounded-2xl bg-white shadow-sm  gap-y-5 translate-y-7">
                 <image src="{{ asset('images/about/graduates-emoji.png') }}" class="w-[130px]" />
                 <h5 class="text-liteBlack text-xl font-semibold">Praktisi Industri</h5>
-                <p class="">Akademisi pendidikan dari berbagai universitas dan bidang akan berkolaborasi bersama dalam
+                <p class="">Akademisi pendidikan dari berbagai universitas dan bidang akan berkolaborasi bersama
+                    dalam
                     penelitian
                     agar tercapainya validasi yang diperlukan.</p>
             </div>
@@ -159,7 +161,8 @@
                 class="flex flex-col items-center justify-center text-center w-[266px] h-[378px] px-8 py-2 rounded-2xl bg-white  shadow-sm gap-y-5 -translate-y-7">
                 <image src="{{ asset('images/about/office-emoji.png') }}" class="w-[130px]" />
                 <h5 class="text-liteBlack text-xl font-semibold">Praktisi Industri</h5>
-                <p class="">Dihadirkan pula praktisi-praktisi profesional yang siap membantu dalam menggali pengalaman
+                <p class="">Dihadirkan pula praktisi-praktisi profesional yang siap membantu dalam menggali
+                    pengalaman
                     yang relevan dengan kebutuhan luas.</p>
             </div>
             {{-- Cards 4 --}}
@@ -167,7 +170,8 @@
                 class="flex flex-col items-center justify-center text-center w-[266px] h-[378px] px-8 py-2 rounded-2xl bg-white shadow-sm  gap-y-5 translate-y-7">
                 <image src="{{ asset('images/about/government-emoji.png') }}" class="w-[130px]" />
                 <h5 class="text-liteBlack text-xl font-semibold">Pakar Pendidikan</h5>
-                <p class="">Dukungan dalam legalitas dan yuridis sangatlah diperlukan, oleh karenanya ahli-ahli dalam
+                <p class="">Dukungan dalam legalitas dan yuridis sangatlah diperlukan, oleh karenanya ahli-ahli
+                    dalam
                     hukum dihadirkan dalam suatu forum diskusi terbuka.</p>
             </div>
             {{-- Cards 5 --}}
@@ -175,7 +179,8 @@
                 class="flex flex-col items-center justify-center text-center w-[266px] h-[378px] px-8 py-2 rounded-2xl bg-white  shadow-sm gap-y-5 -translate-y-7">
                 <image src="{{ asset('images/about/detective-emoji.png') }}" class="w-[130px]" />
                 <h5 class="text-liteBlack text-xl font-semibold">Media Masa</h5>
-                <p class="">Dukungan media masa maupun cetak berguna bagi perkembangan startup, oleh karenanya MARKAS
+                <p class="">Dukungan media masa maupun cetak berguna bagi perkembangan startup, oleh karenanya
+                    MARKAS
                     bekerja bersama media yang terpercaya.</p>
             </div>
             {{-- Cards 6 --}}
@@ -183,7 +188,8 @@
                 class="flex flex-col items-center justify-center text-center w-[266px] h-[378px] px-8 py-2 rounded-2xl bg-white shadow-sm  gap-y-5 translate-y-7">
                 <image src="{{ asset('images/about/graduates-emoji.png') }}" class="w-[130px]" />
                 <h5 class="text-liteBlack text-xl font-semibold">Pakar Pendidikan</h5>
-                <p class="">Akademisi pendidikan dari berbagai universitas dan bidang akan berkolaborasi bersama dalam
+                <p class="">Akademisi pendidikan dari berbagai universitas dan bidang akan berkolaborasi bersama
+                    dalam
                     penelitian
                     agar tercapainya validasi yang diperlukan.</p>
             </div>
