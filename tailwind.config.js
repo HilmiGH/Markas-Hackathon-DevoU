@@ -9,6 +9,7 @@ export default {
         extend: {
             colors: {
                 redMarkas: "#D90027",
+                liteBlack: "#1E1E1E",
             },
             fontFamily: {
                 lexendMega: ["Lexend Mega", "sans-serif"],

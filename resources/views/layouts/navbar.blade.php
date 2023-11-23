@@ -9,10 +9,10 @@
             <ul class="flex w-full flex-row gap-x-6 text-[22px] leading-none items-center font-light font-lexendDeca">
                 <li><a class="hover:brightness-75 transition-all duration-200 whitespace-nowrap" href="/">Home</a>
                 </li>
-                <li><a class="hover:brightness-75 transition-all duration-200 whitespace-nowrap"
-                        href="/about">About</a></li>
-                <li><a class="hover:brightness-75 transition-all duration-200 whitespace-nowrap"
-                        href="#">Philosophy</a></li>
+                <li><a class="hover:brightness-75 transition-all duration-200 whitespace-nowrap" href="/about">About</a>
+                </li>
+                <li><a class="hover:brightness-75 transition-all duration-200 whitespace-nowrap" href="#">Philosophy</a>
+                </li>
                 <li><a class="hover:brightness-75 transition-all duration-200 whitespace-nowrap"
                         href="/events">Events</a></li>
                 <li><a class="hover:brightness-75 transition-all duration-200 whitespace-nowrap"
