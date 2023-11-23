@@ -19,7 +19,7 @@
                         href="/booking">Booking</a>
                 </li>
                 <li><a class="hover:brightness-75 transition-all duration-200 whitespace-nowrap"
-                        href="/contactus">Contact
+                        href="#">Contact
                         Us</a></li>
             </ul>
         </div>
