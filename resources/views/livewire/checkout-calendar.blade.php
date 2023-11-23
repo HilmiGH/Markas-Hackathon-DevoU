@@ -1,5 +1,5 @@
 <div class="">
-    <image src="{{ asset('images/bg-paper.png') }}" class="w-full -z-10 absolute" />
+    
     <section class="" style="padding-left: 5rem; padding-right: 5rem; padding-top: 3rem">
         <button style="border-radius: 24px; padding-block: 16px; padding-inline: 45px; background-color: white; border: 2px solid #000;">
             <x-uiw-left class="h-6 w-6 inline-block mr-4"/>
@@ -8,7 +8,7 @@
         <div style="display: flex; margin-top: 3rem; margin-bottom: 3rem ; justify-content: center">
             <div class="font-lexendMega">
                 <span class="text-redMarkas">1 /</span>
-                <span class="">Pilih Tanggal</span> 
+                <span class="font-bold">Pilih Tanggal</span> 
             </div>
             <x-uiw-right class="h-6 w-6 inline-block ml-4 mr-10"/>
             <div class="font-lexendMega" style="">
@@ -91,50 +91,49 @@
     </section>
     <section style="padding-left: 5rem; padding-right: 5rem; margin-top: 5rem">
         <table class="font-lexendMega w-full border-collapse">
-            <tr class="border-black">
-                <th class="bg-redMarkas p-4 w-max border-black" style="color: rgb(255 255 255); border-top-left-radius: 24px; border-top-right-radius: 24px;">
+            <tr class="border-black" style="border: 2px solid #000">
+                <th class="bg-redMarkas p-4 w-max border-black" style="color: rgb(255 255 255); border-top-left-radius: 24px; border-top-right-radius: 24px; border: 2px solid #000">
                     <span class="float-left">21 November 2023</span>
                     <x-fluentui-arrow-clockwise-20-o class="h-6 w-6 inline-block float-right" />
                 </th>
             </tr>
-            <tr class="rounded-b-[24px] border-black">
-                <table class="w-full border-collapse" style="padding: 5rem">
-                    <tr class="border-black">
-                        <th class="font-bold border-black">Jam</th>
-                        <th class="font-bold border-black">Kegiatan</th>
+            <tr class="bg-white border-black" style="border: 2px solid #000; border-bottom-left-radius: 24px; border-bottom-right-radius: 24px; padding: 50px">
+                
+                    <tr class="border-black bg-white" style="border: 2px solid #000">
+                        <th class="font-bold font-lexendMega border-black" style="border-top-left-radius: 24px;">Jam</th>
+                        <th class="font-bold font-lexendMega border-black" style="border-top-right-radius: 24px;">Kegiatan</th>
                     </tr>
-                    <tr class="border-black">
-                        <td class="border-black">12:00 - 14.00</td>
-                        <td class="border-black"></td>
+                    <tr class="border-black bg-white" style="border: 2px solid #000">
+                        <td class="border-black font-lexendMega" style="text-align: center">12:00 - 14.00</td>
+                        <td class="border-black font-lexendMega" style="text-align: center"></td>
                     </tr>
-                    <tr class="border-black">
-                        <td class="border-black">14:00 - 16.00</td>
-                        <td class="border-black"></td>
+                    <tr class="border-black bg-white" style="border: 2px solid #000">
+                        <td class="border-black font-lexendMega" style="text-align: center">14:00 - 16.00</td>
+                        <td class="border-black font-lexendMega" style="text-align: center"></td>
                     </tr>
-                    <tr class="border-black">
-                        <td class="border-black">16:00 - 18:00</td>
-                        <td class="border-black"><img src="" alt="">Sekolah Beta Intensif Hipster</td>
+                    <tr class="border-black bg-white" style="border: 2px solid #000">
+                        <td class="border-black font-lexendMega" style="text-align: center">16:00 - 18:00</td>
+                        <td class="border-black font-lexendMega" style="text-align: center"><img src="" alt="">Sekolah Beta Intensif Hipster</td>
                     </tr>
-                    <tr class="border-black">
-                        <td class="border-black">18:00 - 20:00</td>
-                        <td class="border-black"><img src="" alt="">Hackathon Build Web Markas</td>
+                    <tr class="border-black bg-white" style="border: 2px solid #000">
+                        <td class="border-black font-lexendMega" style="text-align: center">18:00 - 20:00</td>
+                        <td class="border-black font-lexendMega" style="text-align: center"><img src="" alt="">Hackathon Build Web Markas</td>
                     </tr>
-                    <tr class="border-black">
-                        <td class="border-black">20:00 - 22:00</td>
-                        <td class="border-black"><img src="" alt=""></td>
+                    <tr class="border-black bg-white" style="border: 2px solid #000">
+                        <td class="border-black font-lexendMega" style="text-align: center">20:00 - 22:00</td>
+                        <td class="border-black font-lexendMega" style="text-align: center"><img src="" alt=""></td>
                     </tr>
-                    <tr class="border-black">
-                        <td class="border-black">22:30 - 23:00</td>
-                        <td class="border-black"><img src="" alt=""></td>
+                    <tr class="border-black bg-white" style="border: 2px solid #000">
+                        <td class="border-black font-lexendMega" style="text-align: center">22:30 - 23:00</td>
+                        <td class="border-black font-lexendMega" style="text-align: center"><img src="" alt=""></td>
                     </tr>
-                    <tr class="border-black">
-                        <td class="border-black">23:00 - 23:30</td>
-                        <td class="border-black"><img src="" alt=""></td>
+                    <tr class="border-black bg-white" style="border: 2px solid #000">
+                        <td class="border-black font-lexendMega" style="text-align: center; border-bottom-left-radius: 24px">23:00 - 23:30</td>
+                        <td class="border-black font-lexendMega" style="text-align: center; border-bottom-right-radius: 24px"><img src="" alt=""></td>
                     </tr>
-                </table>
             </tr>
         </table>
-        <button class="bg-redMarkas mt-8">
+        <button class="bg-redMarkas mt-8" style="border-radius: 24px; padding-block: 16px; padding-inline: 45px;">
             <span class="font-lexendMega" style="color: rgb(255 255 255);">
                 Pilih Tanggal
             </span>
