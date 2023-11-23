@@ -1,3 +1,4 @@
+@section('title', 'MARKAS')
 <div class="font-lexendDeca w-full overflow-hidden">
     {{-- Hero --}}
     <div class="relative z-10 flex flex-col w-screen min-h-screen items-center justify-center">

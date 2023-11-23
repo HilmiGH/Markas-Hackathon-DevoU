@@ -1,15 +1,16 @@
+@section('title', 'MARKAS | EVENTS')
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-<div class="relative w-full h-[7750px] font-lexendDeca">
+<div class="relative w-full h-[3000px] font-lexendDeca">
     <div class="relative ">
-        <img src="{{ asset('images/bg-paper.png') }}" class="z-0 w-full h-[7750px] inset-0 absolute" />
+        <img src="{{ asset('images/bg-paper.png') }}" class="z-0 w-full h-[3000px] inset-0 absolute" />
         <div class="relative z-10 px-28">
             <div class="pt-24 text-center">
                 <h1 class="text-redMarkas text-3xl font-semibold mb-5 font-lexendPeta">
-                    Booking
+                    EVENT
                 </h1>
-                <h1 class="text-black font-extrabold text-5xl font-lexendDeca">CARI MARKAS DI SEKITARMU!</h1>
+                <h1 class="text-black font-extrabold text-5xl font-lexendDeca">IKUTI KEGIATAN DIMARKAS</h1>
             </div>
 
             {{-- search --}}
@@ -19,7 +20,7 @@
                     <div class="relative">
                         <input type="search" id="default-search"
                             class="block w-full h-24 p-4 ps-10  text-gray-900  rounded-[100px] bg-gray-50 font-light text-2xl placeholder-gray-400  drop-shadow-lg"
-                            placeholder="Cari “Kota Surabaya” atau “Sidosermo”" required>
+                            placeholder="Cari event yang ada di MARKAS Surabaya" required>
                     </div>
                 </form>
             </div>
@@ -32,41 +33,50 @@
                     <li class="flex-1 me-2 flex items-center justify-center">
                         <a href="#" @click.prevent="activeTab = 'surabaya'"
                             :class="{ 'text-white bg-redMarkas': activeTab === 'surabaya', 'hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white': activeTab !== 'surabaya' }"
-                            class="inline-block w-full h-[78px] px-4 py-7 rounded-[100px] active text-[28px] font-semibold"
+                            class="inline-block w-full h-[78px] px-4 py-7 rounded-[100px] active text-[20px] font-semibold"
                             aria-current="page">
-                            Surabaya
+                            Kegiatan Hari ini
                         </a>
 
                     </li>
                     <li class="flex-1 me-2 flex items-center justify-center">
                         <a href="#" @click.prevent="activeTab = 'jakarta'"
                             :class="{ 'text-white bg-redMarkas': activeTab === 'jakarta', 'hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white': activeTab !== 'jakarta' }"
-                            class="inline-block w-full h-[78px] px-4 py-7 text-[28px] font-semibold rounded-[100px]">Jakarta</a>
+                            class="inline-block w-full h-[78px] px-4 py-7 text-[20px] font-semibold rounded-[100px]">Minggu
+                            ini</a>
                     </li>
                     <li class="flex-1 me-2 flex items-center justify-center">
                         <a href="#" @click.prevent="activeTab = 'bandung'"
                             :class="{ 'text-white bg-redMarkas': activeTab === 'bandung', 'hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white': activeTab !== 'bandung' }"
-                            class="inline-block w-full h-[78px] px-4 py-7 text-[28px] font-semibold rounded-[100px]">Bandung</a>
+                            class="inline-block w-full h-[78px] px-4 py-7 text-[20px] font-semibold rounded-[100px]">Meeting</a>
                     </li>
                     <li class="flex-1 me-2 flex items-center justify-center">
                         <a href="#" @click.prevent="activeTab = 'denpasar'"
                             :class="{ 'text-white bg-redMarkas': activeTab === 'denpasar', 'hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white': activeTab !== 'denpasar' }"
-                            class="inline-block w-full h-[78px] px-4 py-7 text-[28px] font-semibold rounded-[100px]">Denpasar</a>
+                            class="inline-block w-full h-[78px] px-4 py-7 text-[20px] font-semibold rounded-[100px]">Workshop</a>
+                    </li>
+                    <li class="flex-1 me-2 flex items-center justify-center">
+                        <a href="#" @click.prevent="activeTab = 'talkshow'"
+                            :class="{ 'text-white bg-redMarkas': activeTab === 'talkshow', 'hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white': activeTab !== 'talkshow' }"
+                            class="inline-block w-full h-[78px] px-4 py-7 text-[20px] font-semibold rounded-[100px]">Talkshow</a>
                     </li>
                 </ul>
                 <div class="">
                     <div class="">
                         <div x-show="activeTab === 'surabaya'" class="block">
-
+                            @include('livewire.events.hariIni')
                         </div>
                         <div x-show="activeTab === 'jakarta'" class="block">
-
+                            @include('livewire.events.mingguIni')
                         </div>
                         <div x-show="activeTab === 'bandung'" class="block">
-
+                            @include('livewire.events.meeting')
                         </div>
                         <div x-show="activeTab === 'denpasar'" class="block">
-
+                            @include('livewire.events.workshop')
+                        </div>
+                        <div x-show="activeTab === 'talkshow'" class="block">
+                            @include('livewire.events.talkshow')
                         </div>
 
                     </div>
@@ -75,70 +85,20 @@
 
             {{-- Tab Section --}}
 
-            {{-- Hal yang diperhatikan --}}
-            <div class="bg-redMarkas mt-[226px] -mx-28 pt-[101px] h-[1277px] font-lexendDeca text-white">
-                <div class="px-[111px]">
-                    <h1 class="font-semibold text-[22px] text-white mb-[90px]">Hal yang perlu diperhatikan </h1>
-                    <div class="flex flex-row ">
-                        <div>
-                            <div class="mb-[35px]">
-                                <h1 class="font-semibold text-[22px]">1. Membawa Botol Minum Pribadi</h1>
-                                <div class="ml-4 mt-[12px]">
-                                    <p class="text-[20px]">Selama berada di MARKAS, para pengunjung diwajibkan untuk
-                                        membawa botol minum pribadi yang dapat diisi ulang dengan dispenser yang
-                                        tersedia dibeberapa titik.</p>
-                                </div>
-                            </div>
-                            <div class="mb-[35px]">
-                                <h1 class="font-semibold text-[22px]">1. Membawa Botol Minum Pribadi</h1>
-                                <div class="ml-4 mt-[12px]">
-                                    <p class="text-[20px]">Selama berada di MARKAS, para pengunjung diwajibkan untuk
-                                        membawa botol minum pribadi yang dapat diisi ulang dengan dispenser yang
-                                        tersedia dibeberapa titik.</p>
-                                </div>
-                            </div>
-                            <div class="mb-[35px]">
-                                <h1 class="font-semibold text-[22px]">1. Membawa Botol Minum Pribadi</h1>
-                                <div class="ml-4 mt-[12px]">
-                                    <p class="text-[20px]">Selama berada di MARKAS, para pengunjung diwajibkan untuk
-                                        membawa botol minum pribadi yang dapat diisi ulang dengan dispenser yang
-                                        tersedia dibeberapa titik.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="mb-[35px]">
-                                <h1 class="font-semibold text-[22px]">1. Membawa Botol Minum Pribadi</h1>
-                                <div class="ml-4 mt-[12px]">
-                                    <p class="text-[20px]">Selama berada di MARKAS, para pengunjung diwajibkan untuk
-                                        membawa botol minum pribadi yang dapat diisi ulang dengan dispenser yang
-                                        tersedia dibeberapa titik.</p>
-                                </div>
-                            </div>
-                            <div class="mb-[35px]">
-                                <h1 class="font-semibold text-[22px]">1. Membawa Botol Minum Pribadi</h1>
-                                <div class="ml-4 mt-[12px]">
-                                    <p class="text-[20px]">Selama berada di MARKAS, para pengunjung diwajibkan untuk
-                                        membawa botol minum pribadi yang dapat diisi ulang dengan dispenser yang
-                                        tersedia dibeberapa titik.</p>
-                                </div>
-                            </div>
-                            <div class="mb-[35px]">
-                                <h1 class="font-semibold text-[22px]">1. Membawa Botol Minum Pribadi</h1>
-                                <div class="ml-4 mt-[12px]">
-                                    <p class="text-[20px]">Selama berada di MARKAS, para pengunjung diwajibkan untuk
-                                        membawa botol minum pribadi yang dapat diisi ulang dengan dispenser yang
-                                        tersedia dibeberapa titik.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+            {{-- Mari Berkolaborasi - --}}
+            <div class=" mt-[207px]">
+                <h1 class="text-redMarkas font-extrabold text-[48px] text-center">MARI BERKOLABORASI</h1>
+                <div class="flex justify-center items-center mt-12">
+                    <a href="#"
+                        class="bg-redMarkas text-white px-[104px] py-4 font-semibold text-[28px] rounded-[110px] hover:opacity-80">
+                        Booking
+                    </a>
                 </div>
             </div>
-            {{-- Hal yang diperhatikan --}}
+            {{-- Mari Berkolaborasi - --}}
 
 
         </div>
 
+            
     </div>
