@@ -90,45 +90,35 @@
                                 </div>
                             </div>
                             <div class="mb-[35px]">
-                                <h1 class="font-semibold text-[22px]">1. Membawa Botol Minum Pribadi</h1>
+                                <h1 class="font-semibold text-[22px]">2. Reschedule dan Replace Ruangan</h1>
                                 <div class="ml-4 mt-[12px]">
-                                    <p class="text-[20px]">Selama berada di MARKAS, para pengunjung diwajibkan untuk
-                                        membawa botol minum pribadi yang dapat diisi ulang dengan dispenser yang
-                                        tersedia dibeberapa titik.</p>
+                                    <p class="text-[20px]">Setiap penggantian jadwal atau penggantian tipe ruangan dapat dilakukan selambat-lambatnya 3 hari sejak masa pemesanan.</p>
                                 </div>
                             </div>
                             <div class="mb-[35px]">
-                                <h1 class="font-semibold text-[22px]">1. Membawa Botol Minum Pribadi</h1>
+                                <h1 class="font-semibold text-[22px]">3. Harap Melepas Alas Kaki</h1>
                                 <div class="ml-4 mt-[12px]">
-                                    <p class="text-[20px]">Selama berada di MARKAS, para pengunjung diwajibkan untuk
-                                        membawa botol minum pribadi yang dapat diisi ulang dengan dispenser yang
-                                        tersedia dibeberapa titik.</p>
+                                    <p class="text-[20px]">Demi menjaga kebersihan ruangan, setiap pengunjung MARKAS harap melepaskan alas kaki dan meletakkannya pada tempat penyimpanan khusus alas kaki yang telah tersedia di area beranda.</p>
                                 </div>
                             </div>
                         </div>
                         <div>
                             <div class="mb-[35px]">
-                                <h1 class="font-semibold text-[22px]">1. Membawa Botol Minum Pribadi</h1>
+                                <h1 class="font-semibold text-[22px]">4. Tidak Membawa Hewan</h1>
                                 <div class="ml-4 mt-[12px]">
-                                    <p class="text-[20px]">Selama berada di MARKAS, para pengunjung diwajibkan untuk
-                                        membawa botol minum pribadi yang dapat diisi ulang dengan dispenser yang
-                                        tersedia dibeberapa titik.</p>
+                                    <p class="text-[20px]">Demi kenyamanan bersama, harap tidak membawa masuk hewan peliharaan ataupun binatang lain kedalam area MARKAS.</p>
                                 </div>
                             </div>
                             <div class="mb-[35px]">
-                                <h1 class="font-semibold text-[22px]">1. Membawa Botol Minum Pribadi</h1>
+                                <h1 class="font-semibold text-[22px]">5. Menjaga Kebersihan Ruangan</h1>
                                 <div class="ml-4 mt-[12px]">
-                                    <p class="text-[20px]">Selama berada di MARKAS, para pengunjung diwajibkan untuk
-                                        membawa botol minum pribadi yang dapat diisi ulang dengan dispenser yang
-                                        tersedia dibeberapa titik.</p>
+                                    <p class="text-[20px]">Demi kenyamanan bersama, harap menjaga fasilitas yang berada didalam area MARKAS. Setiap fasilitas yang dirusakkan harus diganti seperti sediakala.</p>
                                 </div>
                             </div>
                             <div class="mb-[35px]">
-                                <h1 class="font-semibold text-[22px]">1. Membawa Botol Minum Pribadi</h1>
+                                <h1 class="font-semibold text-[22px]">6. Area Bebas Asap Rokok</h1>
                                 <div class="ml-4 mt-[12px]">
-                                    <p class="text-[20px]">Selama berada di MARKAS, para pengunjung diwajibkan untuk
-                                        membawa botol minum pribadi yang dapat diisi ulang dengan dispenser yang
-                                        tersedia dibeberapa titik.</p>
+                                    <p class="text-[20px]">Demi kenyamanan bersama, harap tidak menyalakan rokok dalam bentuk apapun selama berada didalam area MARKAS. Setiap pelanggar akan dikenakan denda sanksi.</p>
                                 </div>
                             </div>
 
